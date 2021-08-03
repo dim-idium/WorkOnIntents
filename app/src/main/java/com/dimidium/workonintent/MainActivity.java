@@ -9,7 +9,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.security.PrivateKey;
+
 public class MainActivity extends AppCompatActivity {
+
+    final static String YOUR_NAME = "YOUR_NAME";
+    private EditText txtName;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private void initView() {
 
         Button btnGreeting = findViewById(R.id.butt_greeting);
-        final EditText txtName = findViewById(R.id.inter_name);
+        txtName = findViewById(R.id.inter_name);
         final TextView txtGreeting = findViewById(R.id.out_greeting);
 
         btnGreeting.setOnClickListener(new View.OnClickListener() {
@@ -40,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
+
+                intent.putExtra(YOUR_NAME, txtName.getText().toString());
                 startActivity(intent);
             }
         });
