@@ -8,4 +8,6 @@
     <string name="last_name">Your last name</string>
     <string name="age">Your age</string>
     <string name="email">Your email</string>
+    <string name="open_link">link</string>
+    <string name="link">https://yandex.ru</string>
 </resources>
