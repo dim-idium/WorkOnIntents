@@ -60,7 +60,7 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/butt_greeting"
+            android:id="@+id/butt_return"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
