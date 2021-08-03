@@ -2,6 +2,7 @@ package com.dimidium.workonintent;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -34,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
+        Button btnAccount = findViewById(R.id.btn_account);
+        btnAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
