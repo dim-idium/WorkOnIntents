@@ -13,16 +13,16 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/display_in"
+            android:id="@+id/inter_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/your_name"
+            android:hint="@string/your_name"
             android:textSize="@dimen/t_size"
             tools:ignore="SpUsage">
         </EditText>
 
          <TextView
-            android:id="@+id/displayResult"
+            android:id="@+id/out_greeting"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -39,15 +39,15 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/buttonSayHallow"
+            android:id="@+id/butt_greeting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:text="@string/say_hallow" />
+            android:text="@string/btn_hallow" />
 
         <Button
-            android:id="@+id/buttonAccount"
+            android:id="@+id/butt_account"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
