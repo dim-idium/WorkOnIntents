@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">WorkOnIntent</string>
-    <string name="say_hallow">Say_Hallow</string>
+    <string name="say_hallow">Hallow, </string>
     <string name="account">Account</string>
     <string name="your_name">Your name</string>
+    <string name="btn_hallow">Hallow</string>
 </resources>
