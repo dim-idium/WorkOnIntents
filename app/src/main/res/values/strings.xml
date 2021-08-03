@@ -4,4 +4,8 @@
     <string name="account">Account</string>
     <string name="your_name">Your name</string>
     <string name="btn_hallow">Hallow</string>
+    <string name="return_data">Return</string>
+    <string name="last_name">Your last name</string>
+    <string name="age">Your age</string>
+    <string name="email">Your email</string>
 </resources>
